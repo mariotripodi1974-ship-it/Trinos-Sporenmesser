@@ -1,0 +1,23 @@
+﻿TRINOS SPORENMESSER - VERSION 1.5.1026.2
+
+STACHELN MESSEN
+1. Bild öffnen und bei Bedarf in µm kalibrieren.
+2. „Stacheln messen“ wählen.
+3. Vom Ansatz des Stachels bis zur Spitze ziehen und loslassen.
+4. Rechts über der Tabelle „Stacheln“ für die getrennte Auswertung wählen.
+
+Endpunkte ziehen korrigiert die Linie. Ziehen an der Linienmitte verschiebt sie.
+Entf löscht, Strg+Z macht rückgängig, Esc bricht ab.
+„+ Spore messen“ wechselt zurück zu den Sporenrechtecken.
+Shift + Ziehen setzt eine neue Messung über eine vorhandene.
+
+Stacheln haben eine eigene Längenauswertung ohne Breite, Q oder Volumen.
+Ab fünf Stacheln erscheinen die 95-%-Mittelwertgrenzen. Alle Fotos der Reihe
+werden mit ihrem jeweiligen Maßstab gemeinsam ausgewertet.
+TXT und CSV enthalten einen getrennten Stachelabschnitt. „Messung speichern“
+sichert beide Messarten; Dateien mit Stacheln benötigen diese neue Version.
+JPG/PNG übernimmt die Linien und eingeschalteten Beschriftungen.
+
+Die vollständige Anleitung steht in Trinos-Sporenmesser-1.5.1026.2-Anleitung.pdf.
+Trinos Sporenmesser wurde von Mario Tripodi mit Unterstützung künstlicher
+Intelligenz (KI) entwickelt.
