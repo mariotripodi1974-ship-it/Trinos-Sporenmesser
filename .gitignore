@@ -1,0 +1,8 @@
+/dist/
+/tmp/
+*.pdb
+*.sporen.json
+*.sporen-referenz.json
+.vs/
+*.user
+*.suo
