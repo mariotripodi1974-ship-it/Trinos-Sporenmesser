@@ -1,0 +1,24 @@
+name: Windows-Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Programm erstellen
+        shell: powershell
+        run: .\build.ps1
+      - name: Programmdatei bereitstellen (unsigniert)
+        uses: actions/upload-artifact@v4
+        with:
+          name: Trinos-Sporenmesser-Windows-unsigniert
+          path: dist/*.exe
+          if-no-files-found: error
